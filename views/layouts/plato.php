@@ -17,10 +17,6 @@ AppAsset::register($this);
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Clean responsive bootstrap website template">
   <meta name="author" content="">
-  <!-- styles -->
-  <link href="" rel="stylesheet">
-
-  <!-- fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
@@ -35,24 +31,17 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
   <header>
-   
-              <!-- end menu -->
          <?= $this -> render('//layouts/inc/topmenu') ?>
   </header>
    <?= $content  ?>
-  <!-- Footer
- ================================================== -->
   <footer class="footer">
     <div class="container">
       <div class="row">
         <div class="span3">
           <div class="widget">
-            <!-- logo -->
             <div class="footerlogo">
-              <h6><a href="index.html">Plato</a></h6>
-              <!-- <img src="assets/img/logo.png" alt="" /> -->
+              <h6><a href="index.html">Plato</a></h6> 
             </div>
-            <!-- end logo -->
             <address>
 				<strong>Plato business company, Inc.</strong><br>
 				 4455 Great building Ave, Suite A10<br>
@@ -108,31 +97,18 @@ AppAsset::register($this);
         <div class="row">
           <div class="span6">
             <p>
-              &copy; Plato - All right reserved
+              &copy; mastermall- All right reserved
             </p>
           </div>
           <div class="span6">
             <div class="pull-right">
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Plato
-                -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-              </div>
+              <div class="credits">            
             </div>
           </div>
         </div>
       </div>
     </div>
-  </footer>
-
-  
-
-  <!-- Template Custom Javascript File -->
-  
+  </footer> 
   <?php $this->endBody() ?>
 </body>
 
